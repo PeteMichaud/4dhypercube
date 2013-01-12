@@ -1,0 +1,46 @@
+body,html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background:#000;
+    font: 16px/1.6em "Georgia", serif;
+    color: #0f0;
+}
+
+#hypercube-canvas {
+    display: block;
+}
+
+#instructions
+{
+    margin: 10px;
+    padding: 0;
+    display:none;
+}
+
+#instructions
+{
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+#instructions p {
+    margin:0 0 5px 0;
+}
+
+#link-back {
+    position: absolute;
+    bottom:0;
+    right:0;
+    display: block;
+    margin:10px;
+    text-decoration:none;
+    color:#0f0;
+}
+
+#link-back:hover {
+    color:#fff;
+}
